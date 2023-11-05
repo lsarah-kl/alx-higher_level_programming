@@ -15,4 +15,3 @@ if __name__ == '__main__':
                 'commit').get('author').get('name')))
     except Exception:
         pass
-

@@ -11,4 +11,3 @@ if __name__ == '__main__':
         print(response.headers.get('X-Request-Id'))
     except Exception:
         pass
-

@@ -19,4 +19,3 @@ if __name__ == "__main__":
         url_res = response.read()
     output = url_res.decode('utf-8')
     print(output)
-

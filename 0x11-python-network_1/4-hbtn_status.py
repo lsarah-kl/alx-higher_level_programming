@@ -8,4 +8,3 @@ if __name__ == "__main__":
     print('Body response:')
     print('\t- type:', type(response.content.decode()))
     print('\t- content:', response.content.decode())
-

@@ -11,4 +11,3 @@ if __name__ == '__main__':
         url, auth=requests.auth.HTTPBasicAuth(sys.argv[1], sys.argv[2]))
     res_dict = response.json()
     print(res_dict.get('id'))
-
